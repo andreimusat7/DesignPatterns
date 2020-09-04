@@ -1,0 +1,5 @@
+﻿https://code-maze.com/singleton/
+
+The Singleton is a creational design pattern that allows us to create a single instance of an object and to share that instance with all the users that require it. There is a common opinion that the Singleton pattern is not recommended because it presents a code smell, but there are some cases where it fits perfectly.
+
+For example, some components have no reason to be instanced more than once in a project. Take a logger for example. It is quite common to register logger class as a singleton component because all we have to do is to provide a string to be logged and the logger is going to write it to the file. Then multiple classes may require to write in the same file at the same time from different threads, so having one centralized place for that purpose is always a good solution.
