@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace DesignPatterns
+namespace AbstractFactory
 {
     class Program
     {
         static void Main(string[] args)
         {
-           _ = Singleton.Instance();
+            Console.WriteLine("Hello World!");
         }
     }
 }
